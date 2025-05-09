@@ -149,21 +149,6 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=ThreadPoolTest
 
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=0.1.0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MAJOR:STATIC=0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=1
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_TWEAK:STATIC=
-
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
 
@@ -237,15 +222,6 @@ ThreadPoolTest_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 ThreadPoolTest_SOURCE_DIR:STATIC=/home/zyb/Demo/CPP/VScode/ThreadPool/Cpp
-
-//Value Computed by CMake
-Threadpool_BINARY_DIR:STATIC=/home/zyb/Demo/CPP/VScode/ThreadPool/Cpp/build
-
-//Value Computed by CMake
-Threadpool_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Threadpool_SOURCE_DIR:STATIC=/home/zyb/Demo/CPP/VScode/ThreadPool/Cpp
 
 
 ########################

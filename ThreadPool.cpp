@@ -141,13 +141,23 @@ while(!m_shutdown){
             m_alive_num++;
             add_count++;
         }
-        //缩容
-        if(m_busy_num*2<m_alive_num&&alive>m_min_num){
-            m_exit_num=2;
-            for(auto i=0;i<m_exit_num;++i){
-                not_empty.notify_one();
-            }
+     }
+     //缩容
+     if(m_busy_num*2<m_alive_num&&alive>m_min_num){
+        m_exit_num=2;
+        for(auto i=0;i<m_exit_num;++i){
+            not_empty.notify_one();
         }
+      }
     }
 }
+int ThreadPool::GetBusyNum(){
+    return m_busy_num;
+}
+int ThreadPool::GetAliveNum(){
+    return m_alive_num;
+}
+void ThreadPool::AddTask(const Task& task){
+    m_taskQ->AddTask(task);
+    not_empty.notify_one();
 }

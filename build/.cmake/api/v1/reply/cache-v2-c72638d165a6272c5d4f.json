@@ -874,66 +874,6 @@
 			"value" : "ThreadPoolTest"
 		},
 		{
-			"name" : "CMAKE_PROJECT_VERSION",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "0.1.0"
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION_MAJOR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "0"
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION_MINOR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "1"
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION_PATCH",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "0"
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION_TWEAK",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : ""
-		},
-		{
 			"name" : "CMAKE_RANLIB",
 			"properties" : 
 			[
@@ -1267,42 +1207,6 @@
 		},
 		{
 			"name" : "ThreadPoolTest_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/zyb/Demo/CPP/VScode/ThreadPool/Cpp"
-		},
-		{
-			"name" : "Threadpool_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/zyb/Demo/CPP/VScode/ThreadPool/Cpp/build"
-		},
-		{
-			"name" : "Threadpool_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "Threadpool_SOURCE_DIR",
 			"properties" : 
 			[
 				{

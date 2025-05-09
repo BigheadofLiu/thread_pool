@@ -8,8 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(Threadpool
     TaskQueue.cpp
     ThreadPool.cpp
-    TaskQueue.hpp
-    ThreadPool.hpp
+    # TaskQueue.hpp
+    # ThreadPool.hpp
     test.cpp 
 )
 
