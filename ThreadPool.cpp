@@ -97,8 +97,10 @@ ThreadPool::~ThreadPool(){
     }
 }
 void ThreadPool::work(){
-    Task task;
+    // Task task;
     while(true){
+        Task task;
+        { //标识锁的作用域
         std::unique_lock<std::mutex> locker(m_mutex);
         not_empty.wait(locker,[this](){return m_shutdown || m_taskQ->GetTaskNum()>0||m_exit_num>0;});
 
@@ -118,6 +120,7 @@ void ThreadPool::work(){
         }else{
             continue;
         }
+    }
         task(); //运行 ()运算符已重载
         m_busy_num--;
     }
@@ -159,5 +162,6 @@ int ThreadPool::GetAliveNum(){
 }
 void ThreadPool::AddTask(const Task& task){
     m_taskQ->AddTask(task);
-    not_empty.notify_one();
+    // not_empty.notify_one();
+    not_empty.notify_all();
 }
