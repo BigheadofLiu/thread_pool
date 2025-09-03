@@ -1,20 +1,20 @@
 [
 {
-  "directory": "/home/zyb/Demo/CPP/VScode/ThreadPool/Cpp/build",
-  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/Threadpool.dir/TaskQueue.cpp.o -c /home/zyb/Demo/CPP/VScode/ThreadPool/Cpp/TaskQueue.cpp",
-  "file": "/home/zyb/Demo/CPP/VScode/ThreadPool/Cpp/TaskQueue.cpp",
-  "output": "CMakeFiles/Threadpool.dir/TaskQueue.cpp.o"
+  "directory": "E:/clone/ThreadPool/build",
+  "command": "E:\\soft\\Environment\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -std=gnu++17 -o CMakeFiles\\Threadpool.dir\\TaskQueue.cpp.obj -c E:\\clone\\ThreadPool\\TaskQueue.cpp",
+  "file": "E:/clone/ThreadPool/TaskQueue.cpp",
+  "output": "CMakeFiles/Threadpool.dir/TaskQueue.cpp.obj"
 },
 {
-  "directory": "/home/zyb/Demo/CPP/VScode/ThreadPool/Cpp/build",
-  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/Threadpool.dir/ThreadPool.cpp.o -c /home/zyb/Demo/CPP/VScode/ThreadPool/Cpp/ThreadPool.cpp",
-  "file": "/home/zyb/Demo/CPP/VScode/ThreadPool/Cpp/ThreadPool.cpp",
-  "output": "CMakeFiles/Threadpool.dir/ThreadPool.cpp.o"
+  "directory": "E:/clone/ThreadPool/build",
+  "command": "E:\\soft\\Environment\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -std=gnu++17 -o CMakeFiles\\Threadpool.dir\\ThreadPool.cpp.obj -c E:\\clone\\ThreadPool\\ThreadPool.cpp",
+  "file": "E:/clone/ThreadPool/ThreadPool.cpp",
+  "output": "CMakeFiles/Threadpool.dir/ThreadPool.cpp.obj"
 },
 {
-  "directory": "/home/zyb/Demo/CPP/VScode/ThreadPool/Cpp/build",
-  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/Threadpool.dir/test.cpp.o -c /home/zyb/Demo/CPP/VScode/ThreadPool/Cpp/test.cpp",
-  "file": "/home/zyb/Demo/CPP/VScode/ThreadPool/Cpp/test.cpp",
-  "output": "CMakeFiles/Threadpool.dir/test.cpp.o"
+  "directory": "E:/clone/ThreadPool/build",
+  "command": "E:\\soft\\Environment\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -std=gnu++17 -o CMakeFiles\\Threadpool.dir\\test.cpp.obj -c E:\\clone\\ThreadPool\\test.cpp",
+  "file": "E:/clone/ThreadPool/test.cpp",
+  "output": "CMakeFiles/Threadpool.dir/test.cpp.obj"
 }
 ]

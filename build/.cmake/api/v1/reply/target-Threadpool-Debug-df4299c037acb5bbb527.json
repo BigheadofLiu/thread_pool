@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Threadpool"
+			"path" : "Threadpool.exe"
+		},
+		{
+			"path" : "Threadpool.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -10,11 +13,14 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_executable",
+			"set_property",
+			"find_package"
 		],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"CMakeLists.txt",
+			"C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake"
 		],
 		"nodes" : 
 		[
@@ -26,6 +32,22 @@
 				"file" : 0,
 				"line" : 8,
 				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 238,
+				"parent" : 3
 			}
 		]
 	},
@@ -67,12 +89,21 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "Threadpool",
-	"nameOnDisk" : "Threadpool",
+	"nameOnDisk" : "Threadpool.exe",
 	"paths" : 
 	{
 		"build" : ".",
